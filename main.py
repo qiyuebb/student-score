@@ -21,7 +21,7 @@ class Teacher:
 
 
 if __name__ == "__main__":
-    teacher = Teacher("张11sss老师")
+    teacher = Teacher("张11111sss老师")
     try:
         teacher.add_course("C001", "Python程序设计")
         teacher.add_course("C001", "数据库系统")  # 故意重复，触发异常
